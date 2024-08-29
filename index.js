@@ -20,7 +20,7 @@ app.post('/create-gist', async (req, res) => {
                         content: code
                     }
                 },
-                public: true;
+                public: true
             },
             {
                 headers: {
